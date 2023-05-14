@@ -226,7 +226,7 @@
         banner styles 
     ====================================
     */
-
+    
     
     /* .header-inner-column-3 {
         width: 34% !important;
@@ -245,9 +245,9 @@
         background-position:center center;
         background-size: contain;
         padding-top: 41px;
-
+        
     }
-
+    
     .banner-image img {
         max-width: 100%;
     }
@@ -266,7 +266,7 @@
         height: 23px;
         width: 36px;
     }
-
+    
     .icon-id {
         top: 180px;
         left: 2% !important;
@@ -276,7 +276,7 @@
         top: 180px;
         right: 2% !important;
     }
-
+    
     .icon-ai {
         top: 274px;
         left: -2% !important;
@@ -287,12 +287,52 @@
         right: -2% !important;
     }
     
+    /* 
+    ====================================
+        Skills section styles 
+    ====================================
+    */
 
+    .card-title h3 {
+        font-size: 20px;
+    }
+
+    .card-description p {
+        font-size: 14px !important;
+    }
+
+    .skills-card {
+        padding: 30px 10px;
+    }
+    
+    .skills-left-section {
+        width: 60% !important;
+    }
+
+    .skills-right-section {
+        padding: 0 0 0 30px !important; 
+        row-gap: 12px;
+        width: 40% !important;
+    }
+
+    .skills-heading h2 {
+        font-size: 25px;
+        line-height: 33px !important;
+    }
+
+    .skills-description p {
+        font-size: 14px;
+    }
+
+    .skills-btn {
+        display: none;
+    }
+    
 }
 
 
 @media only screen and (max-width:768px) {
-
+    
     .banner-inner-left {
         width: 45% !important;
         padding-top: 30px;
@@ -352,6 +392,47 @@
 
     .banner-btn {
         padding: 15px 34px 15px !important;
+    }
+
+     /* 
+    ====================================
+        Skills section styles 
+    ====================================
+    */
+
+    .skills-section {
+        padding-left:0px;
+        padding-right:0px;
+    }
+
+    .skills-section .row {
+        flex-direction: column-reverse;
+    }
+
+    .skills-right-section,
+    .skills-left-section {
+        width: 100% !important;
+    }
+    
+    .skills-right-section {
+        padding: 0 !important;
+    }
+    
+    .skills-card {
+        width: 100% !important;
+        margin: 0 !important;
+        margin-bottom: 48px !important;
+    }
+
+    .skills-btn {
+        display: flex;
+        width: 100%;
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+
+    .skills-btn button {
+        width: 100% !important;
     }
 }
 

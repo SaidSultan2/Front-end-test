@@ -285,7 +285,7 @@ h3 {
 
 .divider {
     width: 18px;
-    height: 1.5px;
+    height: 2px;
     background-color: #294F3F;
     margin-right: 4px;
 }
@@ -373,13 +373,15 @@ h3 {
 .main-container {
     max-width:1600px;
     margin: auto;
+    padding:0 35px ;
 }
 
 .skills-section {
     max-width: auto;
-    padding: 160px 35px 130px;
+    padding: 160px 15px 130px;
+    
 }
-
+.skills-card-bottom,
 .skills-card-top {
     display: flex;
     flex-direction: row;
@@ -387,11 +389,98 @@ h3 {
 }
 
 .skills-card {
-    padding: 60px 20px;
+    padding: 60px 20px 45px;
     width: 48% !important;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border-radius: 40px;
-    border: 1px solid black;
+    row-gap: 3px;
+    background-color: var(--bg-dark) !important;
+}
+
+.card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid var(--secondary-color);
+    width: fit-content;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: var(--bg-dark) !important;
+    align-self: center;
+    margin-left: 4px;
+}
+
+.card-description,
+.card-title {
+    text-align: center;
+}
+
+.card-title {
+    margin-top: 27px;
+    margin-bottom: 4px !important;
+}
+
+.card-title h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.card-descrtiption p {
+    font-size:18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.skills-right-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    padding: 154px 0 0 160px !important;
+}
+
+.skills-heading h2 {
+    font-size: 38px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.skills-card:hover {
+    background-color: transparent;
+    background-image: linear-gradient(180deg,var(--secondary-color) 0%,#327a56 100%);
+    box-shadow: 25px 25px 30px 0 rgba(100.00000000000001,244,171.00000000000006,.14901960784313725)
+}
+
+.skills-card:hover .card-icon {
+    background: transparent linear-gradient(180deg,var(--e-global-color-c51b028) 0%,var(--e-global-color-accent) 100%) 0% 0% no-repeat padding-box !important; 
+}
+
+.skills-card:hover .card-icon svg g path{
+    fill:var(--color-white);
+}
+
+.skills-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skills-title p {
+    color: var(--secondary-color) !important;
+    margin: 0;
+    font-size: 16px !important;
+    letter-spacing: 0.3px;
+}
+
+.skills-heading h2{
+    font-size: 38px;
+    line-height: 55px !important;
+    letter-spacing: 0.4px;
+}
+
+.skills-description p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
 }
