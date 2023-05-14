@@ -46,6 +46,7 @@ ol {
     --black-color:#000;
     --primary-font: 'Poppins', sans-serif;
     --secondary-font: 'Montserrat', sans-serif;
+    --color-white:#fff;
 }
 
 html {
@@ -66,32 +67,38 @@ body {
 */
 
 p {
-    color: var(--primary-color);
+    color: var(--color-white) !important;
     font-size: 18px;
     font-weight: 300;
     line-height: 26px;
+    font-family: var(--primary-font);
 }
 
-.h1 {
+h1 {
     font-size:78px;
     font-weight: 600;
     margin: 0;
     padding: 0;
-    color: var(--primary-color);
+    color: var(--color-white) !important;
+    font-family: var(--secondary-font) !important;
 }
 
 h2 {
     font-size: 38px;
     font-weight: 600;
     text-transform: capitalize;
-    color: var(--primary-color);
+    color: var(--color-white);
     margin: 0 0 15px;
     padding: 0;
+    font-family: var(--secondary-font) !important;
+    color: var(--color-white) !important;
 }
 
 h3 {
     font-size:28px;
     font-weight: 700;
+    font-family: var(--secondary-font) !important;
+    color: var(--color-white) !important;
 }
 
 .primary-btn {
@@ -104,6 +111,7 @@ h3 {
     color: #000;
     padding: 17px 45px 20px;
     height: max-content;
+    width: fit-content;
 }
 
 .primary-btn:hover {
@@ -144,15 +152,18 @@ h3 {
 ====================================
 */
 
-.header {
+.top-section {
     max-width: 1600px;
     padding: 25px 35px;
     margin: auto;
+    background-color: var(--bg-dark);
+    padding-bottom: 0;
 }
 
 .header-inner {
     display: flex;
     flex-direction: row;
+    width: auto !important;
 }
 
 .header-inner-column {
@@ -172,6 +183,7 @@ h3 {
     justify-content: end;
     column-gap: 34px;
     align-items: center;
+    margin-left: auto;
 }
 
 .header-nav-menu {
@@ -217,4 +229,169 @@ h3 {
 
 .close-btn {
     display: none;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+
+/* 
+====================================
+    Banner Styles
+====================================
+*/
+
+.site-banner {
+    max-width: 100%;
+    flex-wrap: nowrap !important;
+    margin-top: 50px !important;
+    margin: 0 !important;
+}
+
+.banner-inner-left {
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    padding-top: 116px;
+    padding-left: 0 !important;
+}
+
+.banner-inner-right {
+    background: url('/images/hero-img-bg.png');
+    background-repeat: no-repeat;
+    background-size: 93%;
+    background-position: bottom center;
+    position: relative;
+    padding-top: 15px;
+    margin-left: -26px;
+}
+
+.banner-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner-title p {
+    color: var(--secondary-color) !important;
+    margin: 0;
+    font-size: 16px !important;
+    letter-spacing: 0.3px;
+}
+
+.divider {
+    width: 18px;
+    height: 1.5px;
+    background-color: #294F3F;
+    margin-right: 4px;
+}
+
+.banner-heading h1 {
+    font-size: 78px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.banner-heading h3 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 107px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.banner-description {
+    max-width: 485px;
+}
+
+.banner-btn {
+    padding: 15px 47px 15px !important;
+    margin-top:8px;
+    width:fit-content !important;
+}
+
+
+.banner-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    z-index: 1000 !important;
+}
+
+.banner-image img {
+    max-width: 100%;
+    margin-top: -20px;
+}
+
+
+.banner-icons div {
+    font-size: 26px;
+    padding: 30px;
+    background-color: var(--bg-darkGray);
+    border-radius: 50%;
+    width: fit-content;
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+}
+
+.icon-xd {
+    top: 377px;
+    right: 1px;
+    width: auto;
+}
+
+.icon-ps {
+    top: 105px;
+    right: 111px;
+    width: auto;
+}
+
+.icon-ai {
+    top: 377px;
+    left: 1px;
+    width: auto;
+}
+
+.icon-id {
+    top: 105px;
+    left: 111px;
+    width: auto;
+}
+
+
+/* 
+====================================
+    skills section Styles
+====================================
+*/ 
+
+.main-container {
+    max-width:1600px;
+    margin: auto;
+}
+
+.skills-section {
+    max-width: auto;
+    padding: 160px 35px 130px;
+}
+
+.skills-card-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills-card {
+    padding: 60px 20px;
+    width: 48% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    border: 1px solid black;
 }

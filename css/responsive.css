@@ -71,6 +71,55 @@
 ====================================
 */
 
+@media only screen and (min-width:1600px) {
+    .banner-inner-right {
+        background-size: 87%;
+    }
+}
+
+
+@media only screen and (max-width:1366px) {
+
+    /* 
+    ====================================
+        Site Banner 
+    ====================================
+    */
+
+
+    .banner-heading h3 {
+        font-size: 80px;
+        font-weight: 700;
+        line-height:95px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .banner-inner-right {
+        background-position: bottom center;
+        background-size: 95%;
+        margin-left: 0;
+    }
+
+    .icon-id {
+        top:137px;
+    }
+
+    .icon-ps {
+        top:137px;
+        right: 90px;
+    }
+
+    .icon-xd {
+        right: -14px;
+    }
+
+    .icon-ai {
+        left: -14px;
+    }
+}
+
+
 @media only screen and (max-width:1024px) {
 
     /* 
@@ -84,11 +133,16 @@
     }
     
     .header-inner-column-1 {
-        max-width:fit-content;
+        width: 50% !important;
+    }
+
+    .header-inner-column-3 {
+        width: 50% !important;
     }
 
     .header-inner-column-2 {
         justify-content: end;
+        display: none;
     }
     
     .hamburger-menu {
@@ -165,8 +219,155 @@
         border: none !important;
     }
 
+    
+    
+    /* 
+    ====================================
+        banner styles 
+    ====================================
+    */
+
+    
+    /* .header-inner-column-3 {
+        width: 34% !important;
+    } */
+
+
+    .banner-heading h1 {
+        font-size: 40px;
+    }
+
+    .banner-description {
+        font-size: 14px;
+    }
+
+    .banner-inner-right {
+        background-position:center center;
+        background-size: contain;
+        padding-top: 41px;
+
+    }
+
+    .banner-image img {
+        max-width: 100%;
+    }
+
+    .banner-inner-heading {
+        margin-bottom: 0px;
+    }
+
+
+    .banner-icons div {
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .banner-icons div svg {
+        height: 23px;
+        width: 36px;
+    }
+
+    .icon-id {
+        top: 180px;
+        left: 2% !important;
+    }
+
+    .icon-ps {
+        top: 180px;
+        right: 2% !important;
+    }
+
+    .icon-ai {
+        top: 274px;
+        left: -2% !important;
+    }
+
+    .icon-xd {
+        top: 274px;
+        right: -2% !important;
+    }
+    
+
 }
 
-@media only screen and (max-width:800px) {
-    .header-inner-column-3 {}
+
+@media only screen and (max-width:768px) {
+
+    .banner-inner-left {
+        width: 45% !important;
+        padding-top: 30px;
+    }
+
+    .banner-inner-right {
+        width: 55% !important;
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .banner-image {
+        display: block;
+    }
+
+    .display-none{
+        display: none;
+    }
+
+    .header-inner-column-2 {
+        display: none;
+    }
+    
+
+    .banner-heading h3 {
+        font-size: 40px !important;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .banner-icons div {
+        padding: 15px;
+    }
+
+    .banner-icons div svg {
+        height: 20px;
+        width: 33px;
+    }
+
+    .icon-id,
+    .icon-ps {
+        top:70px;
+    }
+
+    .icon-ai {
+        top: 179px;
+        left: -6% !important;
+    } 
+
+    .icon-xd {
+        top: 179px;
+        right: -6% !important;
+    }   
+
+    .banner-btn {
+        padding: 15px 34px 15px !important;
+    }
+}
+
+@media only screen and (max-width:500px) {
+   .site-banner {
+        flex-direction: column;
+        padding-top: 40px;
+        row-gap: 30px;
+   }
+
+   .banner-btn {
+        width: auto !important;
+    }  
+
+   .banner-inner-left,
+   .banner-inner-right {
+    width: 100% !important;
+   }
 }

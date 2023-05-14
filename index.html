@@ -20,61 +20,162 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-inner row">
-            <div class="header-inner-column col-sm-6 col-md-6 col-lg-2 header-inner-column-1">
-                <a href="#" class="site-logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148"
-                        height="48" viewBox="0 0 148 48">
-                        <defs>
-                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
-                                gradientUnits="objectBoundingBox">
-                                <stop offset="0" stop-color="#64f4ab" />
-                                <stop offset="1" stop-color="#327a56" />
-                            </linearGradient>
-                        </defs>
-                        <g id="logo_-_header" data-name="logo - header" transform="translate(-158 -36)">
-                            <text id="Jessy" transform="translate(208 76)" fill="#fff" font-size="33"
-                                font-family="Raleway-SemiBold, Raleway" font-weight="600">
-                                <tspan x="0" y="0">JESSY</tspan>
-                            </text>
-                            <path id="Path_85" data-name="Path 85"
-                                d="M751.579,444.411h13.506v16.174q0,.5-.032,1-.037.613-.121,1.211-.082.614-.213,1.21a16.166,16.166,0,1,1-19.231-19.229v-3.033c0-.24,0-.478.011-.711a19.845,19.845,0,1,0,23.229,20.529c.008-.159.014-.317.018-.475,0-.086,0-.171,0-.258s0-.163,0-.245h0V440.742H751.61q-.031.5-.032,1Z"
-                                transform="translate(638.426 -693.071) rotate(90)" fill="url(#linear-gradient)" />
-                        </g>
-                    </svg>
-                </a>
-            </div>
-            <div class="header-inner-column header-inner-column-2 col-sm-6 col-md-1 col-lg-6">
-                <ul class="header-nav-menu">
-                    <li class="header-nav-item"><a href="#" class="header-nav-link header-nav-active">Home</a></li>
-                    <li class="header-nav-item"><a href="#" class="header-nav-link">Portfolio</a></li>
-                    <li class="header-nav-item"><a href="#" class="header-nav-link">Contact</a></li>
-                </ul>
-                <div class="hamburger-menu">
-                    <div class="hamburger-menu-btn"></div>
+    <section class="top-section">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-inner row">
+                <div class="header-inner-column col-sm-6 col-md-2 col-lg-2 header-inner-column-1">
+                    <a href="#" class="site-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148"
+                            height="48" viewBox="0 0 148 48">
+                            <defs>
+                                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                    gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#64f4ab" />
+                                    <stop offset="1" stop-color="#327a56" />
+                                </linearGradient>
+                            </defs>
+                            <g id="logo_-_header" data-name="logo - header" transform="translate(-158 -36)">
+                                <text id="Jessy" transform="translate(208 76)" fill="#fff" font-size="33"
+                                    font-family="Raleway-SemiBold, Raleway" font-weight="600">
+                                    <tspan x="0" y="0">JESSY</tspan>
+                                </text>
+                                <path id="Path_85" data-name="Path 85"
+                                    d="M751.579,444.411h13.506v16.174q0,.5-.032,1-.037.613-.121,1.211-.082.614-.213,1.21a16.166,16.166,0,1,1-19.231-19.229v-3.033c0-.24,0-.478.011-.711a19.845,19.845,0,1,0,23.229,20.529c.008-.159.014-.317.018-.475,0-.086,0-.171,0-.258s0-.163,0-.245h0V440.742H751.61q-.031.5-.032,1Z"
+                                    transform="translate(638.426 -693.071) rotate(90)" fill="url(#linear-gradient)" />
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header-inner-column header-inner-column-2 col-sm-2 col-md-1 ml-auto col-lg-3">
+                    <ul class="header-nav-menu">
+                        <li class="header-nav-item"><a href="#" class="header-nav-link header-nav-active">Home</a></li>
+                        <li class="header-nav-item"><a href="#" class="header-nav-link">Portfolio</a></li>
+                        <li class="header-nav-item"><a href="#" class="header-nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="header-inner-column header-inner-column-3 col-sm-6 col-md-9 col-lg-7 ">
+                    <div class="hamburger-menu">
+                        <div class="hamburger-menu-btn"></div>
+                    </div>
+                    <div class="display-none btn-div">
+                        <a href="#" class=" social-icon-btn"><i class="fab fa-dribbble social-icon"></i></a>
+                        <a href="#" class=" primary-btn">Contact Me</a>
+                    </div>
                 </div>
             </div>
-            <div class="header-inner-column header-inner-column-3 col-sm-2 col-md-5 col-lg-4 ">
-                <a href="#" class=" social-icon-btn"><i class="fab fa-dribbble social-icon"></i></a>
-                <a href="#" class=" primary-btn">Contact Me</a>
-            </div>
-        </div>
-        <div class="mobile-menu">
-            <div class="close-btn">
-                <div class="close-menu-btn">
-                    <i class="fa fa-thin fa-xmark"></i>
+            <div class="mobile-menu">
+                <div class="close-btn">
+                    <div class="close-menu-btn">
+                        <i class="fa fa-thin fa-xmark"></i>
+                    </div>
+                </div>
+                <div class="responsive-nav-menu nav-active">
+                    <ul class="header-nav-menu">
+                        <li class="header-nav-item"><a href="#" class="header-nav-link header-nav-active">Home</a></li>
+                        <li class="header-nav-item"><a href="#" class="header-nav-link">Portfolio</a></li>
+                        <li class="header-nav-item"><a href="#" class="header-nav-link">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="responsive-nav-menu nav-active">
-                <ul class="header-nav-menu">
-                    <li class="header-nav-item"><a href="#" class="header-nav-link header-nav-active">Home</a></li>
-                    <li class="header-nav-item"><a href="#" class="header-nav-link">Portfolio</a></li>
-                    <li class="header-nav-item"><a href="#" class="header-nav-link">Contact</a></li>
-                </ul>
+        </header>
+        <!-- Header Completed -->
+        
+        <!-- Banner -->
+        <div class="site-banner row">
+            <div class="banner-inner-left col-lg-5 col-md-5 col-sm-5">
+                <div class="banner-title">
+                    <div class="divider"></div>
+                    <p>Introducing</p>
+                </div>
+                <div class="banner-heading">
+                    <h1>Hello</h1>
+                    <h3 class="banner-inner-heading">
+                        I'm Jessy Walter
+                    </h3>
+                </div>
+                <div class="banner-description">
+                    <p class="banner-description">
+                        Since beginning my journey as a freelance designer nearby 7 years ago, I 've done remote work for agencies, consulted for startup, and collaborated with talented people to create digital products.
+                    </p>
+                </div>
+                <button href="#" class="banner-btn primary-btn">Contact Me</button>
+            </div>
+            <div class="banner-inner-right col-lg-7 col-md-7 col-sm-7" style="background-image: url('hero-img-bg.png');">
+                <div class="banner-image">
+                    <img src="images/hero-img.png" alt="">
+                </div>
+                <div class="banner-icons">
+                    <div class="icon-id">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36.13" height="40" viewBox="0 0 36.13 40">
+                            <path id="id_-_icon" data-name="id - icon" d="M16.918,47.449c0,.359-.061.473-.473.473H10.936c-.359,0-.473-.179-.473-.473V8.948c0-.359.179-.473.473-.473h5.569c.294,0,.412.118.412.416V47.449Zm6.347-13.886c0-8.582,5.659-15.266,14.71-15.266.767,0,1.183,0,1.893.054V8.834a.346.346,0,0,1,.359-.359h5.828c.3,0,.359.122.359.3V42.325a26.712,26.712,0,0,0,.179,3.6c0,.237-.072.3-.312.416a21.743,21.743,0,0,1-9.41,2.134c-7.936,0-13.617-4.913-13.617-14.911Zm16.6-9.41a5.315,5.315,0,0,0-2.13-.359c-4.608,0-7.843,3.55-7.843,9.467,0,6.749,3.292,9.467,7.434,9.467a6.94,6.94,0,0,0,2.546-.412V24.154Z" transform="translate(-10.463 -8.475)" fill="#64f4ab"></path>
+                          </svg>
+                    </div>
+                    <div class="icon-ai">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="38.201" viewBox="0 0 40 38.201">
+                            <path id="ai_-_icon" data-name="ai - icon" d="M17.2,35.723,14.529,45.845c-.057.28-.169.344-.5.344H9.072c-.338,0-.388-.111-.338-.5l9.589-33.578A10.415,10.415,0,0,0,18.655,9.3c0-.223.111-.338.28-.338h7.077c.223,0,.338.061.392.338L37.157,45.744c.057.28,0,.446-.28.446H31.306c-.28,0-.446-.068-.5-.29l-2.786-10.18H17.193Zm9.413-5.487c-.945-3.734-3.174-11.912-4.011-15.869h-.057c-.723,3.95-2.505,10.636-3.9,15.869ZM41.81,11.47a3.454,3.454,0,1,1,6.908,0,3.235,3.235,0,0,1-3.511,3.454A3.174,3.174,0,0,1,41.8,11.47Zm.378,7.678c0-.27.111-.371.392-.371h5.3c.3,0,.405.111.405.392V45.825c0,.28-.054.392-.388.392H42.664c-.338,0-.449-.169-.449-.439V19.145Z" transform="translate(-8.718 -8.016)" fill="#64f4ab"></path>
+                          </svg>
+                    </div>
+                    <div class="icon-ps">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="35.447" viewBox="0 0 40 35.447">
+                            <path id="ps_-_icon" data-name="ps - icon" d="M8.7,8.947c0-.212.444-.368.71-.368,2.04-.1,5.031-.158,8.168-.158,8.783,0,12.2,4.816,12.2,10.981,0,8.048-5.836,11.5-13,11.5-1.2,0-1.616-.054-2.455-.054V43.022c0,.263-.1.368-.364.368H9.068c-.263,0-.364-.1-.364-.358V8.947Zm5.624,16.83c.729.051,1.305.051,2.566.051,3.707,0,7.192-1.305,7.192-6.324,0-4.024-2.49-6.064-6.723-6.064-1.255,0-2.455.051-3.032.1V25.787Zm27.27-3.764c-2.509,0-3.346,1.255-3.346,2.3,0,1.15.57,1.933,3.919,3.659,4.968,2.408,6.533,4.7,6.533,8.1,0,5.069-3.865,7.794-9.093,7.794a13.842,13.842,0,0,1-6.5-1.362c-.206-.1-.253-.26-.253-.523V37.335c0-.317.152-.421.361-.266a11.672,11.672,0,0,0,6.375,1.882c2.509,0,3.555-1.046,3.555-2.459,0-1.15-.729-2.145-3.919-3.818-4.5-2.154-6.381-4.341-6.381-8.006,0-4.078,3.187-7.477,8.729-7.477a14.768,14.768,0,0,1,5.684.887.691.691,0,0,1,.317.627v4.341c0,.263-.158.421-.475.317A11.346,11.346,0,0,0,41.581,22Z" transform="translate(-8.7 -8.421)" fill="#64f4ab"></path>
+                          </svg>
+                    </div>
+                    <div class="icon-xd">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40.706" height="30.378" viewBox="0 0 40.706 30.378">
+                            <path id="xd_-_icon" data-name="xd - icon" d="M20.631,23.591,28.406,38.53c.139.222.056.444-.167.444H23.408a.545.545,0,0,1-.583-.361c-1.777-3.665-3.582-7.331-5.442-11.274h-.056c-1.666,3.721-3.5,7.636-5.276,11.3a.533.533,0,0,1-.5.305H6.969c-.278,0-.305-.222-.167-.389l7.608-14.495L7.052,9.4a.224.224,0,0,1,.167-.389H12a.437.437,0,0,1,.5.305c1.749,3.665,3.526,7.442,5.193,11.135h.056c1.611-3.665,3.388-7.469,5.109-11.107.139-.222.222-.361.5-.361h4.471c.222,0,.305.167.167.389Zm9.136,4.526c0-6.47,4.3-11.524,11.135-11.524a12.314,12.314,0,0,1,1.444.056V9.29a.278.278,0,0,1,.278-.278H47.01c.222,0,.278.083.278.222V34.726a19.778,19.778,0,0,0,.139,2.721c0,.167-.056.222-.222.305A16.54,16.54,0,0,1,40.1,39.363C34.07,39.39,29.766,35.67,29.766,28.117Zm12.579-7.108a4.2,4.2,0,0,0-1.611-.278c-3.5,0-5.942,2.693-5.942,7.164,0,5.109,2.5,7.164,5.637,7.164a5.239,5.239,0,0,0,1.916-.305V21.008Z" transform="translate(-6.721 -8.985)" fill="#64f4ab"></path>
+                          </svg>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
+        <!-- Banner Completed -->
+    </section>
+    <section class="main-container">
+        <div class="skills-section">
+            <div class="row">
+                <div class="col-lg-6 skills-left-section">
+                    <div class="skills-cards">
+                        <div class="skills-card-top row">
+                            <div class="skills-card">
+                                <div class="card-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                          <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                                            <stop offset="0" stop-color="#64f4ab"></stop>
+                                            <stop offset="1" stop-color="#327a56"></stop>
+                                          </linearGradient>
+                                        </defs>
+                                        <g id="profuct_design_-_icon" data-name="profuct design - icon" transform="translate(-27.328 -15.227)">
+                                          <path id="Path_58" data-name="Path 58" d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z" transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)"></path>
+                                          <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z" transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)"></path>
+                                          <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z" transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)"></path>
+                                          <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z" transform="translate(27.328 25.723) rotate(-64.46)" fill="url(#linear-gradient)"></path>
+                                          <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z" transform="translate(58.981 42.766) rotate(-64.46)" fill="url(#linear-gradient)"></path>
+                                          <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z" transform="translate(58.897 25.915) rotate(-25.54)" fill="url(#linear-gradient)"></path>
+                                          <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z" transform="translate(27.328 42.86) rotate(-25.54)" fill="url(#linear-gradient)"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="card-title">
+                                    <h1>Product Design</h1>
+                                </div>
+                                <div class="card-description">
+                                    <p>
+                                        The technological revolution is changing aspect
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skills-card"></div>
+                        </div>
+                        <div class="skills-card-bottom"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 skills-right-section"></div>
+            </div>
+        </div>
+    </section>
+    
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
