@@ -117,6 +117,14 @@
     .icon-ai {
         left: -14px;
     }
+
+    .project-image {
+        justify-content: center !important;
+    }
+
+    .project-wrapper {
+        padding: 0 35px;
+    }
 }
 
 
@@ -328,6 +336,28 @@
         display: none;
     }
     
+    /* 
+    ====================================
+        Skills section styles 
+    ====================================
+    */
+    
+    .project-left-section,
+    .project-right-section {
+        width: 50%;
+    }
+
+    .portfolio-image {
+        left: 24px;
+    }
+
+    .image-background svg {
+        width: 109%;
+    }
+
+    .project-heading a h2 {
+        font-size:24px;
+    }
 }
 
 
@@ -434,6 +464,40 @@
     .skills-btn button {
         width: 100% !important;
     }
+
+     /* 
+    ====================================
+        portfolio section styles 
+    ====================================
+    */
+
+    .project-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .image-background svg {
+        width: 130%;
+        margin-left: -20px;
+        height: fit-content;
+    }
+
+    .portfolio-image {
+        left: 0;
+    }
+
+    .project-reverse {
+        flex-direction: column;
+    }
+
+    .animation {
+        justify-content: center !important;
+        margin-top: 109px;
+    }
+
+    .animation svg {
+        width: 200px;
+    }
+
 }
 
 @media only screen and (max-width:500px) {
@@ -452,3 +516,4 @@
     width: 100% !important;
    }
 }
+
