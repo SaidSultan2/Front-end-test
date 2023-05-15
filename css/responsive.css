@@ -78,6 +78,13 @@
 }
 
 
+@media only screen and (max-width:1440px) {
+    .custom-dots-container {
+        margin-top: -30px;
+        margin-left: 60px;
+    }
+}
+
 @media only screen and (max-width:1366px) {
 
     /* 
@@ -124,6 +131,24 @@
 
     .project-wrapper {
         padding: 0 35px;
+    }
+
+    .owl-item {
+        padding-left: 120px;
+    }
+
+     /* 
+    ===============================
+        Footer styles
+    ===============================
+    */
+
+    .footer-section-2 {
+        width: 54% !important;
+    }
+
+    .footer-section-3 {
+        width: 29% !important;
     }
 }
 
@@ -358,16 +383,145 @@
     .project-heading a h2 {
         font-size:24px;
     }
+
+    .stats div span.sta {
+        font-size: 50px;
+    }
+
+    .stats div {
+        padding: 50px 0px !important;
+    }
+
+    .stats div span.aw-info {
+        font-size: 14px;
+    }
+
+    .stats div:first-child {
+        border-radius: 25px 0 0 25px ;
+    }
+
+    .stats div:last-child {
+        border-radius: 0 25px 25px 0;
+    }
+
+    .animation svg {
+        width: 200px !important;
+    }
+
+    .margin-top {
+        margin-top: -358px !important;
+    }
+
+    .project-reverse .project-right-section .project-image .portfolio-image {
+        transform: translate(-22px, -50%);
+    }
+
+    /* 
+    ====================================
+        Testimonial section styles 
+    ====================================
+    */
+
+    .slider-inner-left {
+        padding: 20px !important;
+    }
+
+    .owl-item {
+        padding-left: 0px;
+    }
+
+    .slider-inner-right {
+        padding-left:30px !important;
+    }
+
+    .testimonial-description p {
+        font-size: 18px !important;
+        padding-bottom: 10px;
+        line-height: 1.4em;
+        max-width: 549px;
+    }
+
+    .testimonial-quotes {
+        padding-bottom: 20px;
+    }
+
+    .testimonial-name {
+        font-size: 18px;
+        line-height: 1.4em;
+        margin: 0;
+        padding: 0 0 10px;
+    }
+
+    .custom-dots-container {
+        margin-top: -50px;
+        margin-left: -95px;
+        z-index: 4;
+        position: relative;
+
+    }
+
+
+    /* 
+    ===============================
+        contact-section
+    ===============================
+    */
+    
+    .contact-heading h3 {
+        font-size: 25px !important;
+        margin: 0 0 10px !important;
+    }
+    
+    .contact-description p {
+        font-size: 14px;
+        max-width: 517px;
+        text-align: center;
+    }
+
+    /* 
+    ===============================
+        Footer styles
+    ===============================
+    */
+
+    .footer-section-2 {
+        width: 39% !important;
+    }
+
+    .footer-section-1,
+    .footer-section-3 {
+        width: 30% !important;
+    }
+
+    .footer-description p {
+        font-size: 13px;
+        text-align: center;
+        line-height: 2em ;
+    }
+    
+    .social-icons {
+        justify-content: end;
+        column-gap: 10px;
+    }
+    
+    .social-icons .social-icon-btn {
+        border-radius: 10px;
+        height: 40px;
+        width: 40px;
+    }
+
+
 }
 
 
-@media only screen and (max-width:768px) {
+
+@media only screen and (max-width:769px) {
     
     .banner-inner-left {
         width: 45% !important;
         padding-top: 30px;
     }
-
+    
     .banner-inner-right {
         width: 55% !important;
         display: flex;
@@ -395,11 +549,11 @@
         line-height: 50px;
         margin-bottom: 10px;
     }
-
+    
     .banner-icons div {
         padding: 15px;
     }
-
+    
     .banner-icons div svg {
         height: 20px;
         width: 33px;
@@ -423,11 +577,11 @@
     .banner-btn {
         padding: 15px 34px 15px !important;
     }
-
-     /* 
+    
+    /* 
     ====================================
         Skills section styles 
-    ====================================
+        ====================================
     */
 
     .skills-section {
@@ -438,7 +592,7 @@
     .skills-section .row {
         flex-direction: column-reverse;
     }
-
+    
     .skills-right-section,
     .skills-left-section {
         width: 100% !important;
@@ -453,7 +607,7 @@
         margin: 0 !important;
         margin-bottom: 48px !important;
     }
-
+    
     .skills-btn {
         display: flex;
         width: 100%;
@@ -464,7 +618,11 @@
     .skills-btn button {
         width: 100% !important;
     }
-
+    
+    .project-description {
+        max-width: 534px;
+    }
+    
      /* 
     ====================================
         portfolio section styles 
@@ -477,16 +635,24 @@
 
     .image-background svg {
         width: 130%;
-        margin-left: -20px;
+        margin-left: -105px;
         height: fit-content;
     }
 
     .portfolio-image {
         left: 0;
     }
-
+    
     .project-reverse {
         flex-direction: column;
+    }
+
+    .project-left-section {
+        width: 100% !important;
+    }
+
+    .project-right-section {
+        width: 100% !important;
     }
 
     .animation {
@@ -497,12 +663,119 @@
     .animation svg {
         width: 200px;
     }
+    
+    .counter-animation-2 {
+        left: 20px;
+    }
+    
+    .stats {
+        flex-direction: column;
+    }
+    
+    .stats div {
+        width: 100% !important;
+        padding: 30px 20px !important;
+    }
+    
+    
+    .stats div:first-child {
+        border-radius: 20px 20px 0 0 ;
+    }
+    
+    .stats div:last-child {
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .margin-top {
+        margin-top: -257px !important;
+    }
+
+    .custom-dots-container {
+        margin-top: 10px;
+        margin-left: -45px;
+        z-index: 4;
+        position: relative;
+        
+    }
+    
+    .slider-inner-right,
+    .slider-inner-left {
+        width: 100% !important;
+    }
+
+    .testimonial-description p {
+        font-size: 14px !important;
+        line-height: 2em;
+        max-width: 94% !important;
+    }
+
+    .slider-inner-left {
+        background-position:center !important ;
+    }
+
+    .testimonial-image img {
+        width: 70% !important;
+        margin-left: 20px;
+    }
+
+    .testimonial-quotes {
+        margin-top: 30px;
+    }
+    /* 
+    ===============================
+        contact-section
+    ===============================
+    */
+
+    .contact-heading h3 {
+        font-size: 25px;
+        line-height: 1.5em;
+    }
+
+    .contact-description {
+        font-size: 14px;
+        line-height: 1.6em;
+        max-width: 212px;
+    }
+
+    .contact-btn button {
+        padding: 15px 20px;
+    }
+
+    .contact-container {
+        background-size: 90px auto;
+    }
+
+    .background-overlay {
+        background-size: 70px auto;
+    }
+
+    /* 
+    ===============================
+        Footer styles
+    ===============================
+    */
+
+    .footer-section {
+        width: 100% !important;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .inner-footer .footer-row {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
 
 }
 
+
 @media only screen and (max-width:500px) {
    .site-banner {
-        flex-direction: column;
+       flex-direction: column;
         padding-top: 40px;
         row-gap: 30px;
    }
@@ -511,9 +784,9 @@
         width: auto !important;
     }  
 
-   .banner-inner-left,
+    .banner-inner-left,
    .banner-inner-right {
     width: 100% !important;
-   }
+}
 }
 
