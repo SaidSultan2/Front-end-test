@@ -923,7 +923,7 @@ header {
 */ 
 
 .site-footer {
-    background-color: var(--bg-dark);
+    background-color: var(--bg-dark) !important;
 }
 
 .inner-footer {
@@ -963,7 +963,6 @@ header {
     Portfolio Page styles
 ===========================
 */ 
-
 .header-wrapper {
     background-color: var(--bg-dark);
     max-width: 100%;
@@ -977,4 +976,147 @@ header {
 
 .main-portfolio-wrapper {
     padding: 160px 35px 140px;
+}
+
+
+/* 
+===========================
+    contact Page styles
+===========================
+*/ 
+
+.contact-wrapper {
+    background-color: var(--bg-darkGray);
+}
+
+.contact-inner-container {
+    max-width: 1600px;
+    margin: auto;
+    padding: 160px 35px;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.contact-title p {
+    color: #64f4ab !important;
+    line-height: 1;
+    font-size: 16px;
+    margin-bottom: 0px !important;
+}
+
+.contact-heading h1 {
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 0 20px;
+    padding: 0;
+    border-radius: 0;
+    max-width: 491px;
+}
+
+.contact-pg-description p {
+    color: #ecf2fd;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 0;
+    max-width: 647px;
+}
+
+.contact-pg-description {
+    padding-bottom: 30px;
+}
+
+.info-icon-div {
+    background-color: var(--bg-dark);
+    width: fit-content !important;
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 35px;
+    width: fit-content !important;
+    display: flex;
+    justify-content: center;
+    transition: all .4s ease-in-out;
+}
+
+.info-box {
+    padding-left: 20px !important;
+}
+
+.info-box h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.icon-box-description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #e8e8e8;
+}
+
+.col-info-right,
+.col-info-left {
+    align-items: center;
+}
+
+.col-info-right:hover .info-icon .info-icon-div svg g path,
+.col-info-left:hover .info-icon .info-icon-div svg g path {
+    fill:#000;
+    transition: all .4s ease-in-out;
+}
+
+.col-info-right:hover .row .info-icon .info-icon-div,
+.col-info-left:hover .row .info-icon .info-icon-div {
+    background-color: #fecd1a;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-fields input {
+    color: var(--color-white);
+    width: 48%;
+    height: 55px;
+    border-radius: 14px;
+    padding: 0 10px 0 25px;
+    background-color:#25262A;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--e-global-color-accent);
+    margin-bottom: 30px;
+    transition: all ease-out .3s;
+}
+
+::placeholder {
+    color:var(--color-white) !important;
+}
+.input-fields input:first-child {
+    margin-right: 15px !important;
+}
+
+.textarea textarea {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: normal;
+    border-radius: 14px;
+    padding: 20px 25px;
+    background-color: var(--bg-dark);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--e-global-color-accent);
+    transition: all ease-out .3s;
+    min-height: 255px;
+    width: 100%;
+    max-width: 100% !important;
 }

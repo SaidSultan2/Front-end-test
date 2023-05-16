@@ -511,6 +511,27 @@
         width: 40px;
     }
 
+    .contact-row {
+        flex-direction: column !important;
+        row-gap: 80px;
+    }
+
+    .contact-row .contact-right-section,
+    .contact-row .contact-left-section {
+        width: 100% !important;
+    }
+
+    .col-info-right.col-md-6,
+    .col-info-left.col-md-6 {
+        width: 45% !important;
+    }
+
+    .contact-pg-description p {
+        font-size: 14px !important; 
+    }
+
+
+
 
 }
 
