@@ -556,6 +556,14 @@
     .single-heading h1 {
         font-size: 35px;
     }
+
+    .responsive-nav-menu {
+        z-index: 1;
+    }
+
+    .top-section .header {
+        padding: 0 !important;
+    }
 }
 
 

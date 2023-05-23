@@ -176,6 +176,11 @@ h3 {
     display: flex;
 }
 
+.site-banner {
+    max-width: 1600px !important;
+    margin: auto !important;
+}
+
 
 /* 
 ====================================
@@ -188,7 +193,7 @@ header {
 }
 
 .top-section {
-    max-width: 1600px;
+    max-width: 100%;
     padding: 25px 35px;
     margin: auto;
     background-color: var(--bg-dark);
@@ -283,7 +288,6 @@ header {
     max-width: 100%;
     flex-wrap: nowrap !important;
     margin-top: 50px !important;
-    margin: 0 !important;
 }
 
 .banner-inner-left {
