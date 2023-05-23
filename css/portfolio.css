@@ -1,0 +1,21 @@
+.margin-right,
+.margin-left {
+    margin-right: -140px;
+}
+
+.margin-right svg {
+    width: 200px;
+}
+
+.gradient.margin-left,
+.gradient.margin-right {
+    width: 140%;
+}
+
+.margin-left {
+    margin-left: -140px;
+}
+
+.w-50 {
+    width: 23% !important;
+}
